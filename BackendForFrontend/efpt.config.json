@@ -1,0 +1,285 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "AppDbContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models\/EFModels",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "BackendForFrontend",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[Books].[BookProducts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Books].[Books]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Books].[Categories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Books].[EBooks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Books].[Keywords]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Books].[UsedBooks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AnalyzeActivity]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AnalyzeOneBook]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AnalyzeSales]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AnalyzeUserInteractions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Articles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BookPreviews]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BookReviews]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Booksellers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Categories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Comments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CouponRedemption]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Coupons]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CouponType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EBooksPermissions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Employees]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Favorites]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GroupFunction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GroupPermission]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[GroupRelationship]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Members]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MyCache]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[News]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PdInStock]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PointsHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PostCategories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Posts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PostTags]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductDetailsCategorys]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductKeywords]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductPictures]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Products]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PromotionEvents]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Promotions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QtyBookInventories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QtyflawBooks]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Tags]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Transaction]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsedBookBuyerInformation]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsedBookOrderMessages]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsedBookPaymentRecords]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsedBooksAllocationRecords]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsedBooksCart]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsedBooksLogisticsOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsedBooksOrderDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsedBooksOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UsedBooksReturn]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[WriteBookReviews]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Orders].[CartDetail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Orders].[Carts]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Orders].[EcpayOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Orders].[LogisticsOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Orders].[OrderDetails]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Orders].[Orders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Orders].[Refund]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[Orders].[Return]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
